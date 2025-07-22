@@ -1,0 +1,62 @@
+/* SECCION LOGIN */
+
+.contenedor-login {
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+    background-color: #f1f2f8;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.contenedor-login h1 {
+    text-align: center;
+}
+
+.contenedor-login .contenedor-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.contenedor-login .contenedor-form .fila {
+    margin: 20px 0;
+}
+
+.contenedor-login .contenedor-form .fila label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contenedor-login .contenedor-form .fila .entrada {
+    display: flex;
+    align-items: center;
+}
+
+.contenedor-login .contenedor-form .fila i {
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.contenedor-login .contenedor-form .fila input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border: 1px solid #c0c0c0;
+}
+
+.contenedor-login .contenedor-form .btn {
+    background: #2d40bf;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 15px;
+    margin: 20px 0;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.contenedor-login .contenedor-form .btn:hover {
+    background-color: #4b62f5;
+}
